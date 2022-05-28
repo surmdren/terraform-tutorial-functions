@@ -1,3 +1,4 @@
+## Map varibles test.
 variable "networks" {
   default = {
       "dev_net" = {
@@ -25,3 +26,5 @@ variable "node_groups" {
     b = "default"
   }
 }
+
+#Dynamic variables test.

@@ -31,8 +31,17 @@ locals {
     {
       a = "1"
       b = "2"
+    }, 
+    {
+      c = "3"
+      d = "4"
     })
   }
+
+# ## Print the map as list
+#   node_groups_expanded = [ for k, v in var.node_groups : "${k}, ${v}"
+#   ]
+  
 }
 
 
